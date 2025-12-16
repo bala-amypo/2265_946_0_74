@@ -1,4 +1,6 @@
-package com.example.demo.entity
+package com.example.demo.entity;
+import 
+
 public class Student{
     private Long id;
     private String name;
@@ -16,7 +18,7 @@ public class Student{
         return name;
 
     }
-    public void setName(String id){
+    public void setName(String name){
         this.name=name;
     }
 
@@ -24,7 +26,7 @@ public class Student{
         return email;
 
     }
-    public void setEmail(String id){
+    public void setEmail(String email){
         this.email=email;
     }
 
@@ -32,7 +34,7 @@ public class Student{
         return cgpa;
 
     }
-    public void setCgpa(String id){
+    public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
 
