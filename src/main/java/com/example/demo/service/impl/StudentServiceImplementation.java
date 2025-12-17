@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StudentServiceImpl implements StudentService {
+public class StudentServiceImpl implements StudentService{
 
     @Autowired
     StudentRepository repo;
@@ -25,7 +25,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     // Fetch all records
-    public List<Student> fetchRecord() {
+    public List<Student> fetchRecord(){
         return repo.findAll();
     }
 
