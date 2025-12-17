@@ -15,7 +15,7 @@ public class Student{
     public void setId(Long id){
         this.id=id;
     }
-    public Long getName(){
+    public String getName(){
         return name;
 
     }
@@ -23,7 +23,7 @@ public class Student{
         this.name=name;
     }
 
-    public Long getEmail(){
+    public String getEmail(){
         return email;
 
     }
@@ -31,7 +31,7 @@ public class Student{
         this.email=email;
     }
 
-    public Long getCgpa(){
+    public float getCgpa(){
         return cgpa;
 
     }
