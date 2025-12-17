@@ -10,6 +10,7 @@ public class Student {
     private String stuname;
     private String stumail;
     private float cgpa;
+    
     public int getId() {
         return id;
     }
